@@ -1,0 +1,46 @@
+[
+  {
+    "id": 0,
+    "imageURL": "http://news.toyark.com/wp-content/uploads/sites/4/2017/04/Black-Series-40th-Vader-50.jpg"
+  },
+  
+  {
+    "id": 1,
+    "imageURL": "https://vignette.wikia.nocookie.net/starwars/images/4/4e/ObiWanHS-SWE.jpg/revision/latest/scale-to-width-down/500?cb=20111115052816"
+  },
+  
+  {
+    "id": 2,
+    "imageURL": "https://vignette.wikia.nocookie.net/starwars/images/d/d9/Luke-rotjpromo.jpg/revision/latest/scale-to-width-down/350?cb=20091030151422"
+  },
+  
+  {
+    "id": 3,
+    "imageURL": "https://vignette.wikia.nocookie.net/starwars/images/d/d6/Yoda_SWSB.png/revision/latest?cb=20150206140125"
+  },
+  
+  {
+    "id": 4,
+    "imageURL": "https://vignette.wikia.nocookie.net/starwars/images/0/01/Hansoloprofile.jpg/revision/latest/scale-to-width-down/499?cb=20100129155042"
+  },
+  
+  {
+    "id": 5,
+    "imageURL": "https://www.gannett-cdn.com/-mm-/53ad31340d8a37f41b040ff6ae3c845f4b7d3baf/c=424-0-2662-1682&r=x408&c=540x405/local/-/media/2017/09/25/USATODAY/USATODAY/636419686473431469-Boba-Fett-61fdadfd.jpg"
+  },
+  
+  {
+    "id": 6,
+    "imageURL": "https://www.thewrap.com/wp-content/uploads/2017/06/r2d2-star-wars.png"
+  },
+  
+  {
+    "id": 7,
+    "imageURL": "https://vignette.wikia.nocookie.net/starwars/images/e/ec/ChewbaccaCSWE.jpg/revision/latest?cb=20130702064257"
+  },
+  
+  {
+    "id": 8,
+    "imageURL": "https://www.sideshowtoy.com/wp-content/uploads/2014/11/star-wars-c-3po-sixth-scale-thumb-2171.jpg"
+  }
+]

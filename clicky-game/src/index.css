@@ -1,0 +1,15 @@
+.row {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.imageWrapper {
+    margin: 0 auto;
+    width: 200px;
+    height: 240px;
+}
+
+img {
+    max-height: 100%;
+    max-width: 100%;
+}
+

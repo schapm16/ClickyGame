@@ -1,44 +1,25 @@
 import React from 'react';
-import Picture from './picture.js'
-import pictures from '../pictures.json'
+import Row from './row.js';
+
+import pictures from '../pictures.json';
 
 class Grid extends React.Component {
-    
-    
-    render() {
-        
+  constructor(props) {
+    super(props)
+    this.state = {
+    pictures: pictures
+    };
+  }
+  
+  render() {
+    return(
       <div className='container'>
-        <div className='row'>
-          <div className='col-xs-4'><Picture/></div>
-          
-          <div className='col-xs-4'><Picture/></div>
-          
-          <div className='col-xs-4'><Picture/></div>
-          
-          <div className='col-xs-4'><Picture/></div>
-        </div>
-        
-        <div className='row'>
-          <div className='col-xs-4'><Picture/></div>>
-          
-          <div className='col-xs-4'><Picture/></div>
-          
-          <div className='col-xs-4'><Picture/></div>
-          
-          <div className='col-xs-4'><Picture/></div>
-        </div>
-        
-        <div className='row'>
-          <div className='col-xs-4'><Picture/></div>
-          
-          <div className='col-xs-4'><Picture/></div>
-          
-          <div className='col-xs-4'><Picture/></div>
-          
-          <div className='col-xs-4'><Picture/></div>
-        </div>
+        <Row pictures = {this.state.pictures.slice(0,3)}/>
+        <Row pictures = {this.state.pictures.slice(3,6)}/>
+        <Row pictures = {this.state.pictures.slice(6)}/>
       </div>
-        
-    }
-    
+    );
+  }
 }
+
+export default Grid;
