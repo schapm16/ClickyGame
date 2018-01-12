@@ -7,7 +7,7 @@ const Row = (props) =>
         return (
         <div className="col-xs-4">
           <div className="imageWrapper">
-            <Picture key={picture.id} imageId={picture.id} imageURL={picture.imageURL}/>
+            <Picture key={picture.id} imageId={picture.id} imageURL={picture.imageURL} keepPlaying={props.keepPlaying}/>
           </div>
         </div>
         );

@@ -1,9 +1,18 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Grid from './components/grid.js';
 
-class App extends Component {
+class App extends React.Component {
+  
+  state = {
+   keepPlaying: true
+  }
+  
+  decision() {
+    
+  } 
+  
   render() {
-    return <Grid/>;
+    return <Grid decision={this.decision} keepPlaying = {this.state.keepPlaying}/>;
   }
 }
 
