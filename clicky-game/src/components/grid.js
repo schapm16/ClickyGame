@@ -12,7 +12,6 @@ class Grid extends React.Component {
   }
   
   keepPlaying = () => {
-    if (this.props.keepPlaying) {
       let pictures = this.state.pictures;
       let picturesTotalLength = pictures.length;
       let newPictures = [];
@@ -25,11 +24,12 @@ class Grid extends React.Component {
       }
       
       this.setState({pictures: newPictures});
-    }
   }
   
-  componentWillReceiveProps() {
-    this.keepPlaying();
+  componentWillReceiveProps(nextProps) {
+    if (nextProps.keepPlaying) {
+      this.keepPlaying();
+    }
   }
   
   render() {
