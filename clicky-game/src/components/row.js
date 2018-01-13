@@ -5,8 +5,8 @@ const Row = (props) =>
   <div className='row'>
       {props.pictures.map((picture) => {
         return (
-        <div key={picture.id} className="col-xs-4">
-          <div className="imageWrapper">
+        <div key={picture.id} className='col-md-4'>
+          <div className='imageWrapper'>
             <Picture picture={picture}/>
           </div>
         </div>

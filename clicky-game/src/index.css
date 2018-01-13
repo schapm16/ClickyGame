@@ -1,3 +1,19 @@
+#header {
+    border-bottom: 4px double black;
+}
+
+p#title {
+    font-size: 2em;
+    line-height: 20px;
+    margin: 0px 0px;
+}
+p#scores {
+    font-size: 1.5em;
+    line-height: 20px;
+    text-align: right;
+    margin: 0px 0px;
+}
+
 .row {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -5,7 +21,9 @@
 .imageWrapper {
     margin: 0 auto;
     width: 200px;
-    height: 240px;
+    height: 200px;
+    
+    border: 2px solid black;
 }
 
 img {
