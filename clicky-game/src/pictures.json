@@ -2,54 +2,54 @@
   {
     "id": 0,
     "name": "Darth Vader",
-    "imageURL": "http://news.toyark.com/wp-content/uploads/sites/4/2017/04/Black-Series-40th-Vader-50.jpg"
+    "imageURL": "https://www.technobuffalo.com/wp-content/uploads/2016/12/darth-vader-004-200x200.jpeg"
   },
   
   {
     "id": 1,
     "name": "Obi-Wan Kenobi",
-    "imageURL": "https://vignette.wikia.nocookie.net/starwars/images/4/4e/ObiWanHS-SWE.jpg/revision/latest/scale-to-width-down/500?cb=20111115052816"
+    "imageURL": "https://starweaver-gkp6m2ktjum.netdna-ssl.com/wp-content/uploads/2015/11/obi-wan-kenobi-200x200.jpg"
   },
   
   {
     "id": 2,
     "name": "Luke Skywalker",
-    "imageURL": "https://vignette.wikia.nocookie.net/starwars/images/d/d9/Luke-rotjpromo.jpg/revision/latest/scale-to-width-down/350?cb=20091030151422"
+    "imageURL": "https://i.pinimg.com/originals/08/b4/2b/08b42b80b49d994fcafdf81bcdad0290.jpg"
   },
   
   {
     "id": 3,
     "name": "Yoda",
-    "imageURL": "https://vignette.wikia.nocookie.net/starwars/images/d/d6/Yoda_SWSB.png/revision/latest?cb=20150206140125"
+    "imageURL": "https://starweaver.com/wp-content/uploads/2015/11/Yoda-200x200.jpg"
   },
   
   {
     "id": 4,
     "name": "Han Solo",
-    "imageURL": "https://vignette.wikia.nocookie.net/starwars/images/0/01/Hansoloprofile.jpg/revision/latest/scale-to-width-down/499?cb=20100129155042"
+    "imageURL": "https://www.technobuffalo.com/wp-content/uploads/2015/06/grumpy-harrison-ford-roles-han-solo-3-1088594-TwoByOne-200x200.jpg"
   },
   
   {
     "id": 5,
     "name": "Boba Fett",
-    "imageURL": "https://www.gannett-cdn.com/-mm-/53ad31340d8a37f41b040ff6ae3c845f4b7d3baf/c=424-0-2662-1682&r=x408&c=540x405/local/-/media/2017/09/25/USATODAY/USATODAY/636419686473431469-Boba-Fett-61fdadfd.jpg"
+    "imageURL": "https://www.technobuffalo.com/wp-content/uploads/2016/01/Boba-Fett-200x200.jpeg"
   },
   
   {
     "id": 6,
     "name": "R2D2",
-    "imageURL": "https://www.thewrap.com/wp-content/uploads/2017/06/r2d2-star-wars.png"
+    "imageURL": "https://www.geekalerts.com/u/Star-Wars-R2-D2-Life-Size-Figure-3-200x200.jpg"
   },
   
   {
     "id": 7,
     "name": "Chewbacca",
-    "imageURL": "https://vignette.wikia.nocookie.net/starwars/images/e/ec/ChewbaccaCSWE.jpg/revision/latest?cb=20130702064257"
+    "imageURL": "https://www.gannett-cdn.com/-mm-/2361a9ad0195ed33b18c4dd85dc40bb120e47de7/c=577-0-3303-2726&r=x203&c=200x200/local/-/media/2017/12/09/USATODAY/usatsports/chewbacca.jpg"
   },
   
   {
     "id": 8,
     "name": "C-3PO",
-    "imageURL": "https://www.sideshowtoy.com/wp-content/uploads/2014/11/star-wars-c-3po-sixth-scale-thumb-2171.jpg"
+    "imageURL": "http://www.purplefalcon.com/images/blog/star-wars-beer/C-3PO.jpg"
   }
 ]
