@@ -28,12 +28,16 @@ class Grid extends React.Component {
     }
   }
   
+  componentWillReceiveProps() {
+    this.keepPlaying();
+  }
+  
   render() {
     return(
-      <div className='container'>
-        <Row pictures={this.state.pictures.slice(0,3)} keepPlaying={this.keepPlaying}/>
-        <Row pictures={this.state.pictures.slice(3,6)} keepPlaying={this.keepPlaying}/>
-        <Row pictures={this.state.pictures.slice(6)} keepPlaying={this.keepPlaying}/>
+      <div className='container' onClick={(event) => this.props.decision(event.target)}>
+        <Row pictures={this.state.pictures.slice(0,3)} />
+        <Row pictures={this.state.pictures.slice(3,6)} />
+        <Row pictures={this.state.pictures.slice(6)} />
       </div>
     );
   }
