@@ -1,5 +1,6 @@
 import React from 'react';
 import Grid from './components/grid.js';
+import Header from './components/header.js';
 
 class App extends React.Component {
   
@@ -39,7 +40,12 @@ class App extends React.Component {
   } 
   
   render() {
-    return <Grid decision={this.decision} keepPlaying={this.state.keepPlaying}/>;
+    return (
+      <div>
+      <Header score={this.state.score} topScore={this.state.topScore}/>
+      <Grid decision={this.decision} keepPlaying={this.state.keepPlaying}/>
+      </div>
+    );
   }
 }
 
