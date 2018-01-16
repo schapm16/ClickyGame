@@ -12,7 +12,7 @@ class Grid extends React.Component {
   }
   
   keepPlaying = () => {
-      let pictures = this.state.pictures;
+      let pictures = this.state.pictures.slice();
       let picturesTotalLength = pictures.length;
       let newPictures = [];
       let randomIndex;
